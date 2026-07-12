@@ -2,22 +2,26 @@
 <manifest>
 
   <remote
-        name="gitlab"
-        fetch="https://gitlab.com/" />
+        name="github"
+        fetch="https://github.com/" />
+
+  <remote
+        name="gitlab-deivid"
+        fetch="https://gitlab.com/Deivid21/" />
   
   <!-- Device tree for Motorola G9 Power cebu (your fork) -->
   <project
       path="device/motorola/cebu"
       name="shipukacapri/android_device_motorola_cebu"
       remote="github"
-      revision="infinity-16" />
+      revision="voltage" />
 
  <!-- Common device tree for sm6225 platform (your fork) -->
   <project
       path="device/motorola/sm6225-common"
       name="shipukacapri/android_device_motorola_sm6225-common"
       remote="github"
-      revision="dolby-23.2" />
+      revision="voltage-dolby" />
 
    <!-- Kernel tree (your fork) -->
   <project
@@ -26,7 +30,7 @@
       remote="github"
       revision="lineage-23.2" />
   
-  <!-- Vendor blobs for capri (your fork) -->
+  <!-- Vendor blobs for cebu (your fork) -->
   <project
       path="vendor/motorola/cebu"
       name="TheMuppets/proprietary_vendor_motorola_cebu"
@@ -63,51 +67,51 @@
 
   <!-- MotoCam Common -->
   <project
-    name="Deivid21/proprietary_vendor_motorola_MotCamera-common"
+    name="proprietary_vendor_motorola_MotCamera-common"
     path="vendor/motorola/MotCamera-common"
-    remote="gitlab"
+    remote="gitlab-deivid"
     revision="android-16" />
 
   <!-- MotoCam Photo editor -->
   <project
-    name="Deivid21/proprietary_vendor_motorola_MotoPhotoEditor"
+    name="proprietary_vendor_motorola_MotoPhotoEditor"
     path="vendor/motorola/MotoPhotoEditor"
-    remote="gitlab"
+    remote="gitlab-deivid"
     revision="android-16" />
 
   <!-- MotoCam2AI -->
   <project
-    name="Deivid21/proprietary_vendor_motorola_MotCamera2AI"
+    name="proprietary_vendor_motorola_MotCamera2AI"
     path="vendor/motorola/MotCamera2AI"
-    remote="gitlab"
+    remote="gitlab-deivid"
     revision="android-16" />
 
   <!-- MotoCam3AI Bengal -->
   <project
-    name="Deivid21/proprietary_vendor_motorola_MotCamera3AI-bengal"
+    name="proprietary_vendor_motorola_MotCamera3AI-bengal"
     path="vendor/motorola/MotCamera3AI-bengal"
-    remote="gitlab"
+    remote="gitlab-deivid"
     revision="android-16" />
 
   <!-- MotoCamAI Common -->
   <project
-    name="Deivid21/proprietary_vendor_motorola_MotCameraAI-common"
+    name="proprietary_vendor_motorola_MotCameraAI-common"
     path="vendor/motorola/MotCameraAI-common"
-    remote="gitlab"
+    remote="gitlab-deivid"
     revision="android-16" />
 
   <!-- MotoSignatureApp -->
   <project
-    name="Deivid21/proprietary_vendor_motorola_MotoSignatureApp"
+    name="proprietary_vendor_motorola_MotoSignatureApp"
     path="vendor/motorola/MotoSignatureApp"
-    remote="gitlab"
+    remote="gitlab-deivid"
     revision="android-16" />
 
   <!-- MotoSettingsProvider -->
   <project
-    name="Deivid21/proprietary_vendor_motorola_MotorolaSettingsProvider"
+    name="proprietary_vendor_motorola_MotorolaSettingsProvider"
     path="vendor/motorola/MotorolaSettingsProvider"
-    remote="gitlab"
+    remote="gitlab-deivid"
     revision="android-16" />
   
 <!-- QCOM vendor SEPolicy (contains device/qcom/sepolicy_vndr/SEPolicy.mk) -->
